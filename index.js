@@ -48,6 +48,8 @@ for (var i =0;i<neededButtons;i++){
               
                   default:
                       alert("wrong key pressed")
+                      var audio= new Audio('sounds/crash.mp3');
+                      audio.play();
                       break;
         }
              
